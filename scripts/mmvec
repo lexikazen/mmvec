@@ -20,6 +20,8 @@ from mmvec.multimodal import MMvec
 from mmvec.util import split_tables, format_params
 import matplotlib.pyplot as plt
 
+print "this is a test"
+
 @click.group()
 def mmvec():
     pass
