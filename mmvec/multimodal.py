@@ -6,8 +6,6 @@ import tensorflow as tf
 from tensorflow.contrib.distributions import Multinomial, Normal
 import datetime
 
-print "I changed it"
-
 
 class MMvec(object):
 
@@ -27,7 +25,6 @@ class MMvec(object):
         To enable a GPU, set the device to '/device:GPU:x'
         where x is 0 or greater
         """
-        p = latent_dim
         self.device_name = device_name
         if save_path is None:
             basename = "logdir"
