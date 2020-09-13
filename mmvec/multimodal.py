@@ -6,6 +6,8 @@ import tensorflow as tf
 from tensorflow.contrib.distributions import Multinomial, Normal
 import datetime
 
+print "I changed it"
+
 
 class MMvec(object):
 
